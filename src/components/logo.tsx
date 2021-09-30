@@ -1,9 +1,13 @@
-import * as React from "react";
+import { useHistory } from "react-router";
 
 import LogoSVG from "../assets/logo.svg";
 
 const Logo: React.FC = () => {
-  return <img src={LogoSVG} alt="Logo" />;
+  const history = useHistory();
+
+  return (
+    <img onClick={() => history.push("/search")} src={LogoSVG} alt="Logo" />
+  );
 };
 
 export default Logo;
