@@ -1,0 +1,25 @@
+section.grid {
+  width: $container-size;
+  margin: 0px auto;
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 1290px;
+    max-height: max-content;
+    align-items: center;
+    @include responsive(xs) {
+      width: 90%;
+    }
+    li {
+      list-style-type: none;
+      width: 33%;
+
+      img {
+        width: 100%;
+        cursor: pointer;
+      }
+    }
+  }
+}

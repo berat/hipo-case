@@ -1,0 +1,24 @@
+button {
+  &.search {
+    padding: 15px 91px;
+    background-color: $blue;
+    border-radius: $radius-big;
+    color: $white;
+    text-transform: uppercase;
+  }
+  &.pagination-button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 17px;
+    border: 1px solid;
+    border-radius: 2px;
+    color: $blue;
+    border-color: $gray;
+    cursor: pointer;
+    margin: 50px 5px;
+    &[disabled]{
+      opacity: .3;
+      cursor: default;
+    }
+  }
+}

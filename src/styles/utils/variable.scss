@@ -1,0 +1,33 @@
+// TYPOGRAPHY
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+
+$font-heading: 'Open Sans', sans-serif;
+
+$font-size-root: 100%;
+$font-size-base: 1rem;
+
+
+$weight-normal: 600;
+$weight-bold: 800;
+
+
+// COLOR
+$main: #050417;
+$blue: #2A2B8D;
+$red: #FF4A4A;
+$gray: #D5D7E5;
+$white: #ffffff;
+$border: #D5D7E5;
+
+
+// SIZES
+$container-size: 1076px;
+$box-size: 940px;
+$search-size: 400px;
+
+
+// EXTRAS
+$radius-small: 4px;
+$radius-big: 25px;
+
+$box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
